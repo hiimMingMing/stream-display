@@ -44,19 +44,20 @@ body {
   flex-direction: column;
 }
 
-#GameDiv{
-  color: #88888800;
+#Cocos2dGameContainer {
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
 }
 
 #Cocos3dGameContainer {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-}
-
-#Cocos2dGameContainer {
   position: absolute;
   margin: 0;
   overflow: hidden;
