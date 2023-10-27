@@ -1,8 +1,4 @@
-<<<<<<<< Updated upstream:index.eea0c.js
-System.register(["./application.b438e.js"], function (_export, _context) {
-========
-System.register(["./application.a9450.js"], function (_export, _context) {
->>>>>>>> Stashed changes:index.46b2e.js
+System.register(["./application.51ea2.js"], function (_export, _context) {
   "use strict";
 
   var createApplication, canvas, $p, bcr;
@@ -89,13 +85,8 @@ System.register(["./application.a9450.js"], function (_export, _context) {
   }
 
   return {
-<<<<<<<< Updated upstream:index.eea0c.js
-    setters: [function (_applicationB438eJs) {
-      createApplication = _applicationB438eJs.createApplication;
-========
-    setters: [function (_applicationA9450Js) {
-      createApplication = _applicationA9450Js.createApplication;
->>>>>>>> Stashed changes:index.46b2e.js
+    setters: [function (_application51ea2Js) {
+      createApplication = _application51ea2Js.createApplication;
     }],
     execute: function () {
       canvas = document.getElementById('GameCanvas');

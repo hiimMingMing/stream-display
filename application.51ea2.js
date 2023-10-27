@@ -96,11 +96,7 @@ System.register([], function (_export, _context) {
 
     function loadSettingsJson(cc) {
       var server = '';
-<<<<<<<< Updated upstream:application.b438e.js
-      var settings = 'src/settings.e9963.json';
-========
-      var settings = 'src/settings.02e12.json';
->>>>>>>> Stashed changes:application.a9450.js
+      var settings = 'src/settings.accbd.json';
       return new Promise(function (resolve, reject) {
         if (typeof fsUtils !== 'undefined' && !settings.startsWith('http')) {
           var result = fsUtils.readJsonSync(settings);
